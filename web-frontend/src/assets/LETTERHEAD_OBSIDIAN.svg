@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 250 150">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: none;
+      }
+
+      .st2, .st3, .st4, .st5 {
+        isolation: isolate;
+      }
+
+      .st6, .st7, .st1, .st8 {
+        stroke: #1f2526;
+        stroke-miterlimit: 10;
+      }
+
+      .st6, .st5, .st9 {
+        fill: #1f2526;
+      }
+
+      .st10 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st7 {
+        fill: #fff;
+      }
+
+      .st3 {
+        fill: #c9a84c;
+        font-family: Futura-Medium, Futura;
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      .st4 {
+        fill: #507164;
+        font-family: Avenir-Book, Avenir;
+        font-size: 16px;
+      }
+
+      .st5 {
+        font-family: Avenir-Black, Avenir;
+        font-size: 24px;
+        font-weight: 800;
+      }
+
+      .st8 {
+        fill: #0d1b2a;
+      }
+
+      .st11 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="st6" d="M100.76,59.14h-37c0-2.04,1.34-3.7,3-3.7h37c0,2.04-1.34,3.7-3,3.7Z"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st6" x="58.76" y="50.44" width="50" height="13.7"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g>
+      <path class="st6" d="M100.76,59.14h-37c0-2.04,1.34-3.7,3-3.7h37c0,2.04-1.34,3.7-3,3.7Z"/>
+      <g>
+        <path class="st9" d="M100.76,59.14h-37c0-2.04,1.34-3.7,3-3.7h37c0,2.04-1.34,3.7-3,3.7Z"/>
+        <g class="st11">
+          <g>
+            <rect class="st6" x="58.76" y="50.44" width="50" height="13.7"/>
+            <g>
+              <rect class="st9" x="58.76" y="50.44" width="50" height="13.7"/>
+              <g class="st10">
+                <image class="st2" width="105" height="30" transform="translate(59.4 50.31) scale(.46)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAAAeCAYAAADEkotAAAAACXBIWXMAABfWAAAX1gFCcJy6AAADy0lEQVRoge1a2VHrMBQ9dh58qwPowG6AGTqADgIVkE4ogVABdEAJSQmUwB8hXvR+kEdW7iLZIXFmcmY01mbJvsd30zgDAGutRQCiay/IsmynT9rLjbVtC2strLVo2xZN03Slrms0TYOqqlBVFeq6RlVV2G63Xfn5+emVzWaDzWbTq39/f3dt/xqW7Xbbre+u7hnctWkatG3bFfcumlwfHh7w8vLiyysDgFwSzqFAkUfNCee5vrDE7qHtK407GVGyGiO/5XKJ5XK5079D1F+TNHZ9JzyfFF+gFGFZlqkCtdbuEBOO++RQ2uG0nZqT8t6Pj4/4/Pzs9fWIOpQmUfukakJIkqRx3LiPPM/Z8ZAwvx6SF87h1tHw/v7ef74hi+wD1BcpkTW2hHtIpMWYYu2dOK2Lxevra69N+qhjItZfuSulNf4akrA4U6d9QD4JFCGU2UslbL1e4+vrq2vn1IMdEkP3lsii5qU8B0c05+c4YsbKdb1ed/V/o1Y6IGL8D2fyYkyhj5h0gdOgcHwfhAEnRBTAR3euuIBAI4Jadwh5XCDBmcQxmISPig0q3FhM/sRFeZSJ43zMkPfYJ0nX19ddfRJEUZAS2FB7YvySFO1pJMcKfEjOJOEkiPIh5VIxQQSXGEvrafs7UEnvPuCTBJwIUQAfSlNzKFPGrUMhRthcIi0RnoLb29tee7LBRGx2H3MiQBEoBQepptP153mOtm27+hg/dXd312tPUqO0l9PCYQfpa081cdS4ZpKHapUxBvf3972+SRCVkpRqYbB0KqGdKHDPFkOIlL+lYrFY7PRN1vRJ4ASsJaquxArPN5muzRX/UJfTqhgzaIzB09PTTv9RNWqMeZC0ixoP79X2p4QejoXj3GlIChaLBYwxO/1HI4p7gdQgIvYAVOvjospY06iZwBiUZUlqE3Bipk/yMZzP4SI5ySxp+RmnNZr2hfv4MMbg7e2N1CZgIsFEKmLJAeQkV1tfQipBEhxJYZLr42galeLU3XzNL3H3+eCSYu0+d69GiBT1uXf21zbG4OPjA2VZss8C/GrU2Cz6rxHzhWtmMWUtIC6n0qI8DWVZYrVaqSQBnuk7Bln7OhcbitgzPM2fpe5njMHz8zNWq5Vo7nz0TF+YNxwaQ6K1sD3kxCEWkrmM0aaiKDCfzzGfz9mggQPpo2IjlX2Astvhs4T+zCWYYTvPc8xmM8xmM1xcXODy8rL7KdMV/6fJsIT9/ny/Xtd170fL8MdLV7+5uYG1FkVRoCgKXF1dDZZT9ius49qgM1hkUw8gzjjjjDP+Dv8BGIbiTAbTLD8AAAAASUVORK5CYII="/>
+              </g>
+              <rect class="st1" x="58.76" y="50.44" width="50" height="13.7"/>
+            </g>
+          </g>
+        </g>
+        <path class="st1" d="M100.76,59.14h-37c0-2.04,1.34-3.7,3-3.7h37c0,2.04-1.34,3.7-3,3.7Z"/>
+      </g>
+    </g>
+    <path class="st6" d="M103.76,55.44h-37c-1.66,0-3,1.66-3,3.7h37c1.66,0,3-1.66,3-3.7h0Z"/>
+  </g>
+  <g>
+    <rect class="st6" x="82.93" y="57.17" width="1.65" height="38"/>
+    <polygon class="st6" points="85.56 56.17 81.91 56.18 81.96 96.18 85.61 96.17 85.56 56.17 85.56 56.17"/>
+  </g>
+  <g>
+    <path class="st6" d="M65.76,95.75c-.25,0-.42-.08-.57-.24-.24-.27-.39-.73-.45-1.26h38.03c-.05.54-.21,1-.45,1.27-.15.16-.31.23-.53.23h-36.03Z"/>
+    <path class="st6" d="M63.76,93.25c-.2,1.59.37,3.5,1.97,3.5h36.06c1.61,0,2.15-1.9,1.97-3.5,0,0-40,0-40,0Z"/>
+  </g>
+  <g>
+    <path class="st6" d="M65.44,95.72c-.61-.05-1.13-.23-1.37-.47-.1-.1-.13-.19-.13-.32v-24.19h1.5v24.98Z"/>
+    <path class="st6" d="M66.44,69.74h-3.5v25.17c-.02,1.28,1.45,1.83,2.89,1.83.2,0,.41-.01.6-.03v-26.97h.01Z"/>
+  </g>
+  <g>
+    <path class="st6" d="M101.84,70.74h1.5v24.17c0,.15-.04.24-.13.34-.24.25-.76.42-1.37.47,0,0,0-24.98,0-24.98Z"/>
+    <path class="st6" d="M104.34,69.74h-3.5v26.97c.2.02.4.03.61.03,1.44,0,2.92-.55,2.89-1.83v-25.17h0Z"/>
+  </g>
+  <g class="st2">
+    <text class="st5" transform="translate(117.12 76.18)"><tspan x="0" y="0">TELEO</tspan></text>
+    <text class="st3" transform="translate(192.67 76.18)"><tspan x="0" y="0"> </tspan></text>
+    <text class="st4" transform="translate(117.12 92.18)"><tspan x="0" y="0">GROUP</tspan></text>
+    <text/>
+  </g>
+  <line class="st0" x1="31.44" y1="63.18" x2="75.91" y2="63.18"/>
+  <g>
+    <rect class="st7" x="111.54" y="49.79" width=".25" height="50"/>
+    <polygon class="st8" points="111.79 49.79 111.54 49.79 111.54 99.79 111.79 99.79 111.79 49.79 111.79 49.79"/>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+# Astro Site
+
+## Stack
+
+- **Astro** (SSG) + **React** (interactive components only) + **Tailwind CSS v4**
+- All Tailwind config lives in `web-frontend/src/styles/global.css` (no `tailwind.config.js`)
+
+## Styling
+
+- **Always Tailwind v4** syntax — use canonical class names, not deprecated aliases. Key v4 changes:
+  - `bg-linear-to-*` not `bg-gradient-to-*`
+  - `z-50`, `z-60`, `z-200` etc. (no brackets needed for standard scale values)
+  - Prefer canonical utilities over arbitrary values `[...]` whenever the scale supports it
+- **Always Tailwind**; avoid custom CSS unless adding tokens to `global.css`
+- Use semantic tokens: `bg-base-100/200/300`, `text-base-content`, `bg-band/text-on-band`, `bg-highlight/text-on-highlight`, `text-accent`, `text-secondary`, etc.
+- `--app-*` custom properties in `:root` (light) and `html.dark` (dark); mapped to Tailwind via `@theme`
+- Dark mode is class-based (`html.dark`); use `dark:` only when a semantic token can't express the value
+- Mobile-first: `sm:` `md:` `lg:` `xl:`
+
+## Component Rules
+
+- `.astro` for static/layout, `.tsx` for anything needing `useState`/`useEffect`
+- Astro directives: `client:load` for above-fold React, `client:visible` for below-fold
+- Heading hierarchy: `h1` in Hero, `h2` per section, `h3` for sub-items
+- Sections need `id` anchors and `aria-labelledby` pointing to their heading
+
+## Build & Validation
+
+```bash
+cd web-frontend
+npm run dev      # dev server → http://localhost:4321
+npm run build    # production build (catches TS errors)
+npm run lint     # check for code quality issues (ESLint)
+npm run lint:fix # auto-fix linting issues
+npm run format   # format code with Prettier
+```
+
+**After any code change — run these in order and confirm each passes before moving on:**
+
+1. `npm run lint` — must exit with **0 errors** (warnings are ok)
+2. `npm run format` — auto-formats
+3. `npm run build` — must complete without TypeScript errors
+
+Do not consider a task complete until all three pass cleanly.
+
+**After any UI change:** run `npm run dev`, open the browser, verify in both light and dark mode, and check mobile (375px) and desktop (1280px) widths.

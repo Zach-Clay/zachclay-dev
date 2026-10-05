@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Display / body / nav stacks — paired in BaseLayout Google Fonts link */
+:root {
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Newsreader", ui-serif, Georgia, "Times New Roman", serif;
+}
+
+@theme {
+  --font-sans: var(--font-body);
+  /* Geometric sans for nav — blocky/modern vs Newsreader body */
+  --font-nav: "Archivo", ui-sans-serif, system-ui, sans-serif;
+
+  --color-primary: var(--app-primary);
+  --color-secondary: var(--app-secondary);
+  --color-accent: var(--app-accent);
+  --color-brand: var(--app-brand);
+  --color-neutral: var(--app-neutral);
+  --color-base-100: var(--app-base-100);
+  --color-base-200: var(--app-base-200);
+  --color-base-300: var(--app-base-300);
+  --color-base-content: var(--app-base-content);
+  --color-on-primary: var(--app-on-primary);
+  --color-band: var(--app-band-bg);
+  --color-on-band: var(--app-band-fg);
+  --color-field: var(--app-field-bg);
+  --color-field-border: var(--app-field-border);
+  --color-on-accent: var(--app-on-accent);
+  --color-highlight: var(--app-highlight);
+  --color-on-highlight: var(--app-on-highlight);
+}
+
+:root {
+  --app-primary: #1f2526;
+  --app-on-primary: #f5f5f2;
+
+  --app-secondary: #666666;
+  /* UI emphasis (focus rings, borders, text links) — sage green */
+  --app-accent: #507164;
+  /* Rare brand tint — wordmarks / highlights only */
+  --app-brand: #507164;
+  --app-neutral: #999999;
+
+  --app-base-100: #f5f5f2;
+  --app-base-200: #f1f1ee;
+  --app-base-300: #e8e8e3;
+  --app-base-content: #383838;
+
+  --app-band-bg: #171717;
+  --app-band-fg: #fafafa;
+
+  --app-field-bg: #ffffff;
+  --app-field-border: #d4d4c8;
+  --app-on-accent: #f5f5f2;
+  --app-highlight: #507164; /* sage green — CTAs, overlines, card numbers */
+  --app-on-highlight: #f5f5f2;
+}
+
+html.dark {
+  --app-primary: #f5f5f2;
+  --app-on-primary: #1f2526;
+
+  --app-secondary: #d0d0d0;
+  --app-accent: #507164;
+  --app-brand: #507164;
+  --app-neutral: #a8a8a8;
+
+  --app-base-100: #0a0a0a;
+  --app-base-200: #171717;
+  --app-base-300: #27272a;
+  --app-base-content: #f5f5f2;
+
+  --app-band-bg: #0f0f0f;
+  --app-band-fg: #fafafa;
+
+  --app-field-bg: #141414;
+  --app-field-border: #3f3f46;
+  --app-on-accent: #0a0a0a;
+  --app-highlight: #507164; /* sage green — luminous on dark backgrounds */
+  --app-on-highlight: #0a0a0a;
+}
+
+html {
+  font-family: var(--font-body);
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Subtle atmosphere on the page canvas (dark) */
+body {
+  margin: 0;
+  min-height: 100dvh;
+  color: var(--app-base-content);
+  background-color: var(--app-base-100);
+}
+
+html.dark body {
+  background-image:
+    radial-gradient(
+      ellipse 100% 60% at 50% -30%,
+      color-mix(in oklab, var(--app-base-content) 6%, transparent) 0%,
+      transparent 55%
+    ),
+    radial-gradient(
+      ellipse 80% 50% at 100% 100%,
+      color-mix(in oklab, var(--app-base-content) 4%, transparent) 0%,
+      transparent 45%
+    );
+}
+
+html:not(.dark) body {
+  background-image: radial-gradient(
+    ellipse 90% 55% at 50% -25%,
+    color-mix(in oklab, var(--app-base-content) 4%, transparent) 0%,
+    transparent 50%
+  );
+}

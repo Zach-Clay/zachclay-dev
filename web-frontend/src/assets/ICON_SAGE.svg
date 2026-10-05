@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 160 160">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0 {
+        isolation: isolate;
+      }
+
+      .st1 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st2 {
+        fill: #fff;
+      }
+
+      .st2, .st3 {
+        stroke: #507164;
+        stroke-miterlimit: 10;
+        stroke-width: 1.55px;
+      }
+
+      .st4 {
+        clip-path: url(#clippath);
+      }
+
+      .st5 {
+        fill: #507164;
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="st5" d="M96.92,66.19h-37c0-2.04,1.34-3.7,3-3.7h37c0,2.04-1.34,3.7-3,3.7Z"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st5" x="54.92" y="57.49" width="50" height="13.7"/>
+    </clipPath>
+  </defs>
+  <g>
+    <path class="st2" d="M80.1,127.27c-24.4,0-44.25-19.85-44.25-44.25s19.85-44.25,44.25-44.25,44.25,19.85,44.25,44.25-19.85,44.25-44.25,44.25Z"/>
+    <path class="st3" d="M80.1,39.52c23.99,0,43.5,19.51,43.5,43.5s-19.51,43.5-43.5,43.5-43.5-19.51-43.5-43.5,19.51-43.5,43.5-43.5M80.1,38.02c-24.85,0-45,20.15-45,45s20.15,45,45,45,45-20.15,45-45-20.15-45-45-45h0Z"/>
+  </g>
+  <g>
+    <g>
+      <path class="st5" d="M96.92,66.19h-37c0-2.04,1.34-3.7,3-3.7h37c0,2.04-1.34,3.7-3,3.7Z"/>
+      <g>
+        <path class="st5" d="M96.92,66.19h-37c0-2.04,1.34-3.7,3-3.7h37c0,2.04-1.34,3.7-3,3.7Z"/>
+        <g class="st4">
+          <g>
+            <rect class="st5" x="54.92" y="57.49" width="50" height="13.7"/>
+            <g>
+              <rect class="st5" x="54.92" y="57.49" width="50" height="13.7"/>
+              <g class="st1">
+                <image class="st0" width="105" height="29" transform="translate(54.72 57.36) scale(.48)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGkAAAAdCAYAAACpMULtAAAACXBIWXMAABcRAAAXEQHKJvM/AAADmklEQVRoge1a3U3zMBQ9SYFnb1A2SBZAYgPYoHQCugkjICaADRihHYEReKOlaczLdyPHudfXTqImn9QjWY2vHdvx8f2zmllrLf7BeRwdWZaxcmlOkltrYa1FXdeo6xqn06n5raoKp9MJx+OxVX5/f1tlv9/jcDjgcDg0z/v9vik/Pz+tNv+ZCo1HcxyPx2YNVVWhqqpmnVTcb9Dw+vqKp6cn2q9mw3Jts8bC0PFpzVmWtZ7ddreNZNy8rsxa2zlAfrt/YPwx6RBxfVK+e71e4+vrqyPPUwcaAm4eScM4OUeQTwzXT5oDAPI8j9JyjTi/jzSOho+Pj+4az0UQgTuJIaKGFn+OEGGhtthvkrQtFm9vbx1ZzvSbBDEb5GuHVAfCfkAyb9rhcQngyOBMXSpZu90O39/fLdlkJPU9aSGiuH4p65BIlvyaRMpQ67Tb7Vr1q0GjnQEx/kYyczHmz0VocznCJKLctjEwe5IAOYqjQs5fI4Ebtw9xUtAgmcGhmNQnxQYQ1KYFB26/0FzULvmUPt8xJkG3t7et+mwCB4K0+dTmak2MHwpFdRrBsZvdJycKYfYkuQjlSjEBg5T0hsbT5idwCe0Y8AkCZk4SIIfLXB/OfEnjcIjZaClJDpGdgvv7+45sdoFDbNYek+lz5IUCgVRzSfI8z1HXdfM8xC89PDx0ZLPSJO3DtJCXEDrlqWaNa9fMcF9tMsbg8fGxI5+UpJSEUwt1Q7cN2k2BtLYYMkL5WSo2mw0rn525C0HaXC0JpRK7ca6ZpLpU3AtaSZtiTJ8xBs/Pz2zbJJo0xCSEtIpr99/V5uc23G/z26VbjhRsNhsYY9i2s5MkLT41YIi9zNRkUvQYaw41sxeDsixFLQL+E3MX8imSj5EitpAp0vIvSVs0rfPncWGMwfv7u6hFwMyiOw2xxADhBFYbP4RUckIggrgE1sXZNSnFgVN/zQ9J77mQEl7tPXpXIyMU3dE3u2MbY/D5+YmyLMW1EGatSTEnWzOFKWMBcTmTFs1pKMsS2+02iiAAyIdeY/TBmNf4fRB7J6f5r9T5jDF4eXnBdrtVTZyLK3eQqTavT1Tm1/vcJMQiZCJjtKgoCqxWK6xWq2CAIKHlk2IjkjHA2Wl/Lb7/ouTRr+d5jsVigcVigevra9zc3LD/xeP+k8fJ3f7+f+zof3ZU3Do9393dwVqLoihQFAWWy+Wgvcrs1LbnAhbZFH7oggsuuGBa/AErBs9y3wZ5xwAAAABJRU5ErkJggg=="/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path class="st5" d="M99.92,62.49h-37c-1.66,0-3,1.66-3,3.7h37c1.66,0,3-1.66,3-3.7h0Z"/>
+  </g>
+  <g>
+    <rect class="st5" x="79.09" y="64.22" width="1.65" height="38"/>
+    <polygon class="st5" points="81.72 63.22 78.07 63.23 78.12 103.23 81.77 103.22 81.72 63.22 81.72 63.22"/>
+  </g>
+  <g>
+    <path class="st5" d="M61.92,102.8c-.25,0-.42-.08-.57-.24-.24-.27-.39-.73-.45-1.26h38.03c-.05.54-.21,1-.45,1.27-.15.16-.31.23-.53.23h-36.03Z"/>
+    <path class="st5" d="M59.92,100.3c-.2,1.59.37,3.5,1.97,3.5h36.06c1.61,0,2.15-1.9,1.97-3.5h-40Z"/>
+  </g>
+  <g>
+    <path class="st5" d="M61.6,102.77c-.61-.05-1.13-.23-1.37-.47-.1-.1-.13-.19-.13-.32v-24.19h1.5v24.98Z"/>
+    <path class="st5" d="M62.6,76.79h-3.5v25.17c-.02,1.28,1.45,1.83,2.89,1.83.2,0,.41-.01.6-.03v-26.97h.01Z"/>
+  </g>
+  <g>
+    <path class="st5" d="M98,77.79h1.5v24.17c0,.15-.04.24-.13.34-.24.25-.76.42-1.37.47,0,0,0-24.98,0-24.98Z"/>
+    <path class="st5" d="M100.5,76.79h-3.5v26.97c.2.02.4.03.61.03,1.44,0,2.92-.55,2.89-1.83v-25.17h0Z"/>
+  </g>
+</svg>

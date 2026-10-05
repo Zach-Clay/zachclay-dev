@@ -1,0 +1,82 @@
+# ==========================================================
+# GLOBAL / SYSTEM
+# ==========================================================
+.DS_Store
+Thumbs.db
+*.log
+logs/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Local tooling
+.vscode/
+.idea/
+
+# Build artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+publish/
+out/
+Generated\ Files/
+
+# Azure user files
+*.publishsettings
+*.azurePubxml
+*.pubxml.user
+
+# ==========================================================
+# FRONTEND (React / Node.js)
+# ==========================================================
+# Node dependencies
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# Build output
+**/dist/
+**/.next/
+**/.turbo/
+**/.cache/
+**/coverage/
+
+# Editor settings
+*.tsbuildinfo
+
+# Deployment outputs
+**/*.Publish.xml
+**/*.PublishProfiles/
+**/publish/
+**/obj/Release/
+**/obj/Debug/
+
+# ==========================================================
+# TESTING / COVERAGE
+# ==========================================================
+coverage/
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+*.testsettings
+*.vsmdi
+
+# ==========================================================
+# MISC
+# ==========================================================
+# Temporary files from editors or OS
+*~
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================================================
+# END OF FILE
+# ==========================================================

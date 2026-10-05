@@ -1,0 +1,7 @@
+# CODEOWNERS
+
+## Entire Repository
+* @Zach-Clay
+
+## Web Frontend
+/web-frontend/ @Zach-Clay
