@@ -1,6 +1,6 @@
-# Template Astro Site
+# zachclay.dev
 
-Astro website template.
+The website for [zachclay.dev](https://zachclay.dev).
 
 ## Stack
 
