@@ -42,7 +42,7 @@ function SunIcon() {
 }
 
 export const themeToggleButtonClass =
-  "inline-flex h-9 w-9 cursor-pointer items-center justify-center rounded-md border border-base-300 bg-base-100 text-base-content hover:bg-base-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-base-content"
+  "inline-flex h-9 w-9 cursor-pointer items-center justify-center rounded-sm border border-base-content/25 bg-base-100/40 text-base-content backdrop-blur-sm hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-base-content"
 
 type ThemeIconButtonProps = {
   mounted: boolean

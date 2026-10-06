@@ -1,57 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 160 160">
-  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <defs>
-    <style>
-      .st0 {
-        fill: none;
-      }
-
-      .st1 {
-        clip-path: url(#clippath-1);
-      }
-
-      .st2 {
-        fill: #fff;
-      }
-
-      .st3 {
-        clip-path: url(#clippath);
-      }
-    </style>
-    <clipPath id="clippath">
-      <path class="st0" d="M96.92,66.19h-37c0-2.04,1.34-3.7,3-3.7,0,0,37,0,37,0,0,2.04-1.34,3.7-3,3.7Z"/>
-    </clipPath>
-    <clipPath id="clippath-1">
-      <rect class="st0" x="54.92" y="57.49" width="50" height="13.7"/>
+    <linearGradient id="base" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#29245D"/>
+      <stop offset=".56" stop-color="#191932"/>
+      <stop offset="1" stop-color="#10101D"/>
+    </linearGradient>
+    <radialGradient id="violet" cx="0" cy="0" r="1" gradientTransform="matrix(0 180 -180 0 75 66)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7567FA" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#7567FA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blue" cx="0" cy="0" r="1" gradientTransform="matrix(0 154 -154 0 204 202)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#35BCEB" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#35BCEB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lilac" cx="0" cy="0" r="1" gradientTransform="matrix(0 116 -116 0 203 62)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B58BFF" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#B58BFF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="tile">
+      <rect width="256" height="256" rx="68"/>
     </clipPath>
   </defs>
-  <g>
-    <path class="st2" d="M80.1,127.27c-24.4,0-44.25-19.85-44.25-44.25s19.85-44.25,44.25-44.25,44.25,19.85,44.25,44.25-19.85,44.25-44.25,44.25Z"/>
-    <path d="M80.1,39.52c23.99,0,43.5,19.51,43.5,43.5s-19.51,43.5-43.5,43.5-43.5-19.51-43.5-43.5,19.51-43.5,43.5-43.5M80.1,38.02c-24.85,0-45,20.15-45,45s20.15,45,45,45,45-20.15,45-45-20.15-45-45-45h0Z"/>
-  </g>
-  <g>
-    <g class="st3">
-      <g class="st1">
-        <image width="105" height="30" transform="translate(54.72 57.12) scale(.48)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGkAAAAdCAYAAACpMULtAAAACXBIWXMAABcRAAAXEQHKJvM/AAAD5ElEQVRoge1a21HjMBQ9coBvdQAd2A0wQwekgwwVECqhBEIFpANKSEqgBD6JX9qPXXll5d4ryQ6xmeHMaKK3ZB3fl2JljDFgIDQNhlIqaR1jzFFqmgZt26JpGjRNg7quUdc1qqrq5auqwuFwQFmWOBwOvfT19dUlqVyWZVdnU1VVKMsSZVl269h167ru9ucmd/8clsslXl5eoLV2z0tl0uHMBT6xFNFKqaP6mGdwx9j+7jhqDr+OOnz/xYrBdrvF09PTUT1J0rkJog6d6kORRaXYNULrSu0UoX7bEGw2G2w2m17dEUnfTdDY+e3BuYS4h0mRpZQKHqYxRpREVyI4CTHGoG1bsk/Kcz88PODj46Mr90g6lwRR66RKgE+QJGlcu4ssy9h2Tv1RxPl9uHlC2G63//c2ZIJTgHoTJaLGJn8NibAY9Rt6plR75OP19bXLs47DVIi1T/aXkhbfGeAOilNvoZeH8jgpCaOkLBb7/R6fn58A/pE0pSc3dG2JKKpfyj44kjm7xpEy9lz3+z0A4GJOrraEGHvDqbkY9eciFLf5fTii3LYxuBg1+szgvDibrPEPkUDNO4Q4zmkYEiNJmIVNinUgbFtMfMR5c5Ra42zKkOc4JUE3NzcAZkISBSk49aUm9kYi1OavbRF72ENiIgmzJ8mFFCvFOAxc0CvNF1rfggpoTwFLEPBDSAJ4d5nqQ6kvbh4KKXd+lD0LBc4xuLu76/KzdRxio/aYSJ8iT3IEUtWlrc+yDG3bdvkxdun+/r7Lz1KSQg8WcnktpLc8Va1R7SE1PFSatNZYLpddeRYkpQScIVdXum0I3RRwe4shQ4rPUrFer3vl2ao7CdzhhoJQm2IPzlWTtswl94KWk6YY1ae1xuPjY69uUkkaoxIkqaLa/bGh9akD99v8du6WIwXr9br3zywwIUnc5lMdhtjLzFAd5z3GqsOQ2otBURRHUgT8MHUn2RTOxnAem6SKQvEXJy0hqfPXcaG1xtvb25EUATNxHFIRSwwgB7Ch+SWkkiPBEuQGsC4ulKL/Wv5upBhw2z9kh7hxLriANzTOjg2RIXl39pndubXWeH9/R1EU7F4yaqG5IeYlCqnClLmAuJgp5M2FUBQFdrudSBDgqLspiJpCgl1IzywFxanXTH5frTWen5+x2+1YFeei5zj4ccG5McQr88tDbhJiIanIGCnK8xyr1Qqr1Yp0EDiQ3l2sR3IKUHra34tvv2zw6JezLMNiscBiscDl5SWurq66L0xtsl+d2i9Q3eTXu/3dvPulqvsVrZ+/vb2FMQZ5niPPc1xfXw86I2Wm1jm/EKHm7jD84i/+AN07FaiYVsIYAAAAAElFTkSuQmCC"/>
-      </g>
-    </g>
-    <path d="M99.92,62.49h-37c-1.66,0-3,1.66-3,3.7h37c1.66,0,3-1.66,3-3.7h0Z"/>
-  </g>
-  <g>
-    <rect class="st2" x="79.09" y="64.22" width="1.65" height="38"/>
-    <polygon points="81.72 63.22 78.07 63.23 78.12 103.23 81.77 103.22 81.72 63.22 81.72 63.22"/>
-  </g>
-  <g>
-    <path class="st2" d="M61.92,102.8c-.25,0-.42-.08-.57-.24-.24-.27-.39-.73-.45-1.26h38.03c-.05.54-.21,1-.45,1.27-.15.16-.31.23-.53.23h-36.03Z"/>
-    <path d="M59.92,100.3c-.2,1.59.37,3.5,1.97,3.5.01,0,.02,0,.03,0,0,0,4.76,0,10.82,0,10.6,0,25.18,0,25.18,0,.01,0,.02,0,.03,0,1.61,0,2.15-1.9,1.97-3.5h-40Z"/>
-  </g>
-  <g>
-    <path class="st2" d="M61.6,102.77c-.61-.05-1.13-.23-1.37-.47-.1-.1-.13-.19-.13-.32v-24.19h1.5v24.98Z"/>
-    <path d="M62.6,76.79h-3.5v25.17c-.02,1.28,1.45,1.83,2.89,1.83.2,0,.41-.01.6-.03v-26.97h0Z"/>
-  </g>
-  <g>
-    <path class="st2" d="M98,77.79h1.5v24.17c0,.15-.04.24-.13.34-.24.25-.76.42-1.37.47v-24.98Z"/>
-    <path d="M100.5,76.79h-3.5v26.97c.2.02.4.03.61.03,1.44,0,2.92-.55,2.89-1.83v-25.17h0Z"/>
+  <g clip-path="url(#tile)">
+    <path fill="url(#base)" d="M0 0h256v256H0z"/>
+    <path fill="url(#violet)" d="M0 0h256v256H0z"/>
+    <path fill="url(#blue)" d="M0 0h256v256H0z"/>
+    <path fill="url(#lilac)" d="M0 0h256v256H0z"/>
   </g>
 </svg>
